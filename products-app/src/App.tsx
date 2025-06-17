@@ -1,8 +1,6 @@
-import React from 'react';
 import ProductCard from './components/ProductCard/ProductCard';
 import './App.css';
 
-// Локальные изображения
 import coffeeImage from './images/coffee.jpg';
 import teaImage from './images/tea.jpg';
 import chocolateImage from './images/chocolate.jpg';

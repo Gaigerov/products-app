@@ -43,6 +43,14 @@ npm start
 
 Приложение будет доступно по адресу: [http://localhost:3000](http://localhost:3000)
 
+## Деплой на GitHub Pages
+
+Проект автоматически публикуется на GitHub Pages при выполнении команды:
+
+```bash
+npm run deploy
+```
+
 ## Структура проекта
 
 ```

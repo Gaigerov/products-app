@@ -10,7 +10,7 @@
     background: white;
     display: flex;
     flex-direction: column;
-    position: relative; /* Добавляем для правильного позиционирования */
+    position: relative;
 }
 
 .product-card__image-container {
@@ -20,7 +20,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative; /* Для внутреннего позиционирования */
+    position: relative;
 }
 
 .product-card__image {
@@ -32,7 +32,6 @@
     background: linear-gradient(45deg, #f0f0f0, #e0e0e0);
 }
 
-/* Анимация только при наличии изображения */
 .product-card:not(.no-image):hover .product-card__image {
     transform: scale(1.05);
 }
@@ -42,7 +41,6 @@
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
-/* Остальные стили без изменений */
 .product-card__info {
     padding: 16px;
     flex-grow: 1;
